@@ -5,8 +5,15 @@
     { "id": "frontend", "name": "Frontend System" },
     { "id": "ai", "name": "AI & Analytics" }
   ],
+  "rings": [
+    { "id": "adopt", "name": "Adopt", "color": "#5BC300" },
+    { "id": "trial", "name": "Trial", "color": "#44A6C6" },
+    { "id": "assess", "name": "Assess", "color": "#F0A72D" },
+    { "id": "hold", "name": "Hold", "color": "#E0533D" }
+  ],
   "entries": [
     {
+      "key": "nfs",
       "id": "nfs",
       "title": "New Frontend System",
       "quadrant": "frontend",
@@ -17,6 +24,7 @@
       ]
     },
     {
+      "key": "ref-identifiers",
       "id": "ref-identifiers",
       "title": "ref:// plugin references",
       "quadrant": "plugins",
@@ -27,6 +35,7 @@
       ]
     },
     {
+      "key": "scorecard",
       "id": "scorecard",
       "title": "Scorecard plugin",
       "quadrant": "ai",
@@ -36,6 +45,7 @@
       ]
     },
     {
+      "key": "signals",
       "id": "signals",
       "title": "Signals",
       "quadrant": "frontend",
@@ -46,6 +56,7 @@
       ]
     },
     {
+      "key": "rbac-visibility",
       "id": "rbac-visibility",
       "title": "RBAC fine-grained visibility",
       "quadrant": "platform",
@@ -55,6 +66,7 @@
       ]
     },
     {
+      "key": "kserve-connector",
       "id": "kserve-connector",
       "title": "Kubeflow/KServe connector",
       "quadrant": "ai",
@@ -64,6 +76,7 @@
       ]
     },
     {
+      "key": "http2",
       "id": "http2",
       "title": "HTTP/2 enablement",
       "quadrant": "platform",

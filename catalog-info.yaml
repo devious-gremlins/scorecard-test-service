@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: scorecard-test-service
+  description: Scorecard test fixture service ingested from the devious-gremlins org
+  annotations:
+    github.com/project-slug: devious-gremlins/scorecard-test-service
+spec:
+  type: service
+  lifecycle: production
+  owner: user:default/gashcrumb

@@ -1,0 +1,76 @@
+{
+  "quadrants": [
+    { "id": "plugins", "name": "Dynamic Plugins" },
+    { "id": "platform", "name": "Platform" },
+    { "id": "frontend", "name": "Frontend System" },
+    { "id": "ai", "name": "AI & Analytics" }
+  ],
+  "entries": [
+    {
+      "id": "nfs",
+      "title": "New Frontend System",
+      "quadrant": "frontend",
+      "description": "Backstage new frontend system with dynamic feature loading and app.extensions configuration.",
+      "timeline": [
+        { "date": "2026-03-01", "ringId": "trial" },
+        { "date": "2026-10-01", "ringId": "adopt", "moved": 1 }
+      ]
+    },
+    {
+      "id": "ref-identifiers",
+      "title": "ref:// plugin references",
+      "quadrant": "plugins",
+      "description": "Resolve RHDH-provided plugins from the catalog index by name instead of full OCI URLs.",
+      "timeline": [
+        { "date": "2026-08-01", "ringId": "assess" },
+        { "date": "2026-10-01", "ringId": "adopt", "moved": 1 }
+      ]
+    },
+    {
+      "id": "scorecard",
+      "title": "Scorecard plugin",
+      "quadrant": "ai",
+      "description": "Software delivery health metrics with github, DORA, OpenSSF, SonarQube data sources.",
+      "timeline": [
+        { "date": "2026-09-01", "ringId": "trial" }
+      ]
+    },
+    {
+      "id": "signals",
+      "title": "Signals",
+      "quadrant": "frontend",
+      "description": "Real-time frontend updates via server-sent events.",
+      "timeline": [
+        { "date": "2026-09-15", "ringId": "trial" },
+        { "date": "2026-10-01", "ringId": "adopt", "moved": 1 }
+      ]
+    },
+    {
+      "id": "rbac-visibility",
+      "title": "RBAC fine-grained visibility",
+      "quadrant": "platform",
+      "description": "Conditional policies controlling page, tab and navigation element visibility.",
+      "timeline": [
+        { "date": "2026-10-01", "ringId": "assess" }
+      ]
+    },
+    {
+      "id": "kserve-connector",
+      "title": "Kubeflow/KServe connector",
+      "quadrant": "ai",
+      "description": "Model serving connector transitioning from the OpenShift AI connector.",
+      "timeline": [
+        { "date": "2026-10-01", "ringId": "hold" }
+      ]
+    },
+    {
+      "id": "http2",
+      "title": "HTTP/2 enablement",
+      "quadrant": "platform",
+      "description": "Optional HTTP/2 setup for performance improvements.",
+      "timeline": [
+        { "date": "2026-10-01", "ringId": "assess" }
+      ]
+    }
+  ]
+}
